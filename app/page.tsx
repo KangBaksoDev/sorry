@@ -6,7 +6,7 @@ import styles from "../app/styles/Sorry.module.css";
 import Link from "next/link";
 
 const SorryPage = () => {
-  const [buttonPosition, setButtonPosition] = useState({ x: 615, y: 300 });
+  const [buttonPosition, setButtonPosition] = useState({ x: 608, y: 320 });
 
   const handleMoveButton = () => {
     const randomX = Math.random() * (window.innerWidth - 200); // 200 adalah lebar tombol
@@ -16,7 +16,7 @@ const SorryPage = () => {
   return (
     <main className={styles.main}>
       <div className={styles.particles}></div>
-      <h1 className={styles.title}>Sengg Maafin akuuuu</h1>
+      <h1 className={styles.title}>SENGG MAAFIN AKUUU:(</h1>
 
       <p className={styles.description}>
         maafin akuu yaa sengg <br />
